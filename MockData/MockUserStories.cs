@@ -13,6 +13,7 @@ namespace UserStoryRazorPageApplikation.MockData
     new UserStory("Move Story", "As team member I want to move a Story So ..."),
     new UserStory("Delete Story", "As team member I want to delete a Story So ...")
     new UserStory("Delete", "test")
+
         };
 
         public List<UserStory> GetMockUserStories() 
