@@ -1,0 +1,9 @@
+﻿@page
+@model UserStoryRazorPageApplikation.Pages.UserStories.IndexModel
+@{
+}
+
+{
+MockUserStories mock = new MockUserStories(); 
+UserStories = mock.GetMockUserStories();
+}
